@@ -3,7 +3,7 @@
 
 <h1 align="center"> نظام التشغيل في الوقت الفعلي مخصص للأنظمة الضمنية </h1>
 
-##    Explanation of Free RTOS           ....................................         شرح و تعريف 
+##    Explanation of Free RTOS                   شرح و تعريف 
 
 *  In Arabic.
 
