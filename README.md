@@ -63,14 +63,14 @@ git clone https://github.com/BasilAvad
 
 ```
 
-* Create an object of MovingAverage using the constructor.
+* Create an object of .
 
 ```cpp
 
 
 ```
 
-*  Call a member function of the object in the loop function.
+*  Call a member function of the object in .
 
 ```cpp
 
