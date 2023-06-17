@@ -3,7 +3,7 @@
 
 <h1 align="center"> نظام التشغيل في الوقت الفعلي مخصص للأنظمة الضمنية </h1>
 
-## Explanation of moving average formula
+## Explanation of Free RTOS 
 
 *  In Arabic.
 
@@ -25,21 +25,21 @@
 
 ## Explanation and distribution of projects
 
- * [Arduino](https://github.com/BasilAvad/MovingAverage/tree/main/Examples/arduino).
+ * [Arduino](https://github.com/BasilAvad).
 
  ```bash
 
-  1- Support all arduino boards contain ADC.
+  1-
 
-  2- Support all Node MCU boards contain ADC like (ESP8266).
+  2- 
 
  ```
 
- * [ESP32](https://github.com/BasilAvad/MovingAverage/tree/main/Examples/esp32).
+ * [ESP32](https://github.com/BasilAvad).
 
  ```bash
 
-  1- Support all ESP32 boards contain ADC.
+  1- 
 
  ```
 
@@ -49,10 +49,7 @@ Use the Arduino IDE [Arduino IDE](https://www.arduino.cc/en/software) or Platfor
 
 ```bash
 
-
-
 git clone https://github.com/BasilAvad
-
 
 
 ```
@@ -80,8 +77,8 @@ git clone https://github.com/BasilAvad
 
 ```
 
-## Moving Average Library Test and Result
+## FreeRTOS Library Test and Result
 
- * 🟦 The blue line is sensor raw data.
+ * 🟦 .
 
- * 🟥 The red line is the sensor data with a moving average.
+ * 🟥 .
