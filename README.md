@@ -1,6 +1,5 @@
 
-<h1 align="center"> FreeRTOS </h1>
+<h1 align="center"> Free RTOS </h1>
 
-<h1 align="center"> الوسط المتحرك </h1>
+<h1 align="center"> نظام التشغيل في الوقت الفعلي مخصص للأنظمة الضمنية </h1>
 
-Filter your sensor data with moving average, making your system stable and easy to control.
