@@ -22,3 +22,66 @@
 ```
 
 -> Read More About: [Free RTOS ](https://en.wikipedia.org/wiki/FreeRTOS).
+
+## Explanation and distribution of projects
+
+ * [Arduino](https://github.com/BasilAvad/MovingAverage/tree/main/Examples/arduino).
+
+ ```bash
+
+  1- Support all arduino boards contain ADC.
+
+  2- Support all Node MCU boards contain ADC like (ESP8266).
+
+ ```
+
+ * [ESP32](https://github.com/BasilAvad/MovingAverage/tree/main/Examples/esp32).
+
+ ```bash
+
+  1- Support all ESP32 boards contain ADC.
+
+ ```
+
+## Installation
+
+Use the Arduino IDE [Arduino IDE](https://www.arduino.cc/en/software) or PlatformIO IDE in VS Code [PlatformIO IDE](https://platformio.org) to update this code.
+
+```bash
+
+
+
+git clone https://github.com/BasilAvad
+
+
+
+```
+
+## Usage
+
+* Include and Call the header file  inside your project.
+
+```cpp
+
+
+```
+
+* Create an object of MovingAverage using the constructor.
+
+```cpp
+
+
+```
+
+*  Call a member function of the object in the loop function.
+
+```cpp
+
+
+```
+
+## Moving Average Library Test and Result
+
+ * 🟦 The blue line is sensor raw data.
+
+ * 🟥 The red line is the sensor data with a moving average.
