@@ -26,6 +26,6 @@ void analogWriteTask(void *pvParameter)
   for (;;)
   {
     Serial.println("Task analogWriteTask is running");
-    vTaskDelay(20 / portTICK_PERIOD_MS);
+    vTaskDelay(25 / portTICK_PERIOD_MS);
   }
 }
