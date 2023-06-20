@@ -54,10 +54,8 @@ ESP32 function block diagram.
 
 Use the Arduino IDE [Arduino IDE](https://www.arduino.cc/en/software) or PlatformIO IDE in VS Code [PlatformIO IDE](https://platformio.org) to update this code.
 
-```git
-
+```cpp
 https://github.com/BasilAvad/FreeRTOS/tree/main
-
 
 ```
 
