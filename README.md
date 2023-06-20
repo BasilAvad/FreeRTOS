@@ -118,7 +118,9 @@ void setup()
 ## FreeRTOS Library Test and Result
 
 
-Period to Frequency ![DOcfewC6QbGabF7mbxCL_frequencyformula](https://github.com/BasilAvad/FreeRTOS/assets/69681817/4eaa119b-8f84-425e-9601-0dd5f6ed9c17)
+Period 
+to  ![DOcfewC6QbGabF7mbxCL_frequencyformula](https://github.com/BasilAvad/FreeRTOS/assets/69681817/4eaa119b-8f84-425e-9601-0dd5f6ed9c17)
+Frequency 
 
  * ⬜ .
 
