@@ -29,7 +29,7 @@
 
  ```bash
 
-  1-
+  1- Support all Arduino dual-core and single-core. نظام التشغيل يدعم المتحكمات الدقيقة من هذا النوع مع الأنتباه الى تحديث الكود بحسب عدد الأنوية الموجودة في المتحكم
 
   2- 
 
@@ -45,6 +45,8 @@
 
 
  ```
+ESP32 function block diagram.
+
 ![ESP32-Dual-Core-Processor](https://github.com/BasilAvad/FreeRTOS/assets/69681817/92d6bad5-2191-4f55-a0cd-61b358d72498)
 
 ## Installation
