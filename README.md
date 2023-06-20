@@ -48,7 +48,7 @@
 ESP32 function block diagram.
 
 
-<img width="730" alt="Screenshot 2020-11-27 at 09 10 15" src="https://github.com/BasilAvad/FreeRTOS/assets/69681817/d01eba6f-5953-48c1-b1be-05ee0cae6d8d">
+
 
 ## Installation
 
