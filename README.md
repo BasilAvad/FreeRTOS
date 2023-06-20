@@ -42,6 +42,7 @@
   1- 
 
  ```
+![ESP32-Dual-Core-Processor](https://github.com/BasilAvad/FreeRTOS/assets/69681817/92d6bad5-2191-4f55-a0cd-61b358d72498)
 
 ## Installation
 
