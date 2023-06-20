@@ -47,7 +47,8 @@
  ```
 ESP32 function block diagram.
 
-![ESP32-Dual-Core-Processor](https://github.com/BasilAvad/FreeRTOS/assets/69681817/92d6bad5-2191-4f55-a0cd-61b358d72498)
+
+<img width="730" alt="Screenshot 2020-11-27 at 09 10 15" src="https://github.com/BasilAvad/FreeRTOS/assets/69681817/d01eba6f-5953-48c1-b1be-05ee0cae6d8d">
 
 ## Installation
 
