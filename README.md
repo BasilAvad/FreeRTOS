@@ -35,7 +35,7 @@
 
  ```
 
- * [ESP32](https://github.com/BasilAvad).
+ * [ESP32](https://github.com/BasilAvad/FreeRTOS/tree/main/Examples/ESP32/FreeRTOS).
 
  ```bash
 
