@@ -39,7 +39,7 @@
 
  ```bash
 
-  1- Support all ESP32 dual-core and single-core.
+  1- Support all ESP32 dual-core and single-core. نظام التشغيل يدعم المتحكمات الدقيقة من هذا النوع مع الأنتباه الى تحديث الكود بحسب عدد الأنوية الموجودة في المتحكم
   2- ESP32 has two 32-bit Tensilica Xtensa LX6 microprocessors which makes it a powerful dual-core (core0 and core1) microcontroller. It is available in two variants single-core and 
      dual- core. But the dual-core variant is more popular because there is no significant price difference.
 
