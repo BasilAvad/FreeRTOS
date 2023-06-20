@@ -117,7 +117,10 @@ void setup()
 ```
 ## FreeRTOS Library Test and Result
 
- * ⬜ . ![Screenshot 2023-06-20 152002](https://github.com/BasilAvad/FreeRTOS/assets/69681817/9b341f2b-9aeb-4ef2-ab7a-d77ca6bd80cd)
+
+![DOcfewC6QbGabF7mbxCL_frequencyformula](https://github.com/BasilAvad/FreeRTOS/assets/69681817/4eaa119b-8f84-425e-9601-0dd5f6ed9c17)
+
+ * ⬜ .
 
 
  * 🟥 .
