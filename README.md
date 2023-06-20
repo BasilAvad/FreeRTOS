@@ -99,7 +99,18 @@ void core1Task(void*parameter)
   }
 }
 ```
+*  Initialize and creat the task functions inside the setup() function.
+```cpp
+void setup()
+{
 
+                     Task function , Task name , Stack size   Task priority   , Task handle  Task core (0 or 1 for ESP32)
+                           ^            ^         ^               ^                  ^         ^
+                           |            |         |               |                  |         |
+ xTaskCreatePinnedToCore(core0Task ,"core0Task",NULL,configMAX_PRIORITIES - 1,      NULL  ,    0);
+ xTaskCreatePinnedToCore(core1Task ,"core1Task",NULL,configMAX_PRIORITIES - 1,NULL,1);
+}
+```
 ## FreeRTOS Library Test and Result
 
  * ⬜ .
