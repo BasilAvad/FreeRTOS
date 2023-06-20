@@ -85,7 +85,7 @@ void core0Task(void*parameter)
   {
    /* your code hear*/
    //for example: digitalWrite(pin4 , LOW);
-   vTaskDelay(10/portTICK_PERIOD_MS);
+   vTaskDelay(15/portTICK_PERIOD_MS);
   }
 }
 
