@@ -61,11 +61,11 @@ git clone https://github.com/BasilAvad/FreeRTOS/tree/main
 
 ## Usage
 
-* Include and Call the header file  inside your project.
+* Include and Call the header files  inside your project.
 
 ```cpp
-
-
+#include <freertos/FreeRTOS.h>
+#include <freertos/task.h>
 ```
 
 * Create an object of .
