@@ -39,7 +39,10 @@
 
  ```bash
 
-  1- 
+  1- Support all ESP32 dual-core and single-core.
+  2- ESP32 has two 32-bit Tensilica Xtensa LX6 microprocessors which makes it a powerful dual-core (core0 and core1) microcontroller. It is available in two variants single-core and 
+     dual- core. But the dual-core variant is more popular because there is no significant price difference.
+
 
  ```
 ![ESP32-Dual-Core-Processor](https://github.com/BasilAvad/FreeRTOS/assets/69681817/92d6bad5-2191-4f55-a0cd-61b358d72498)
