@@ -76,11 +76,28 @@ void core0Task(void* parameter);
 void core1Task(void* parameter);
 ```
 
-*  Call a member function of the object in .
+*  Creat Task functions core0Task and core1Task.
 
 ```cpp
+void core0Task(void*parameter)
+{
+  for(;;)
+  {
+   /* your code hear*/
+   //for example: digitalWrite(pin4 , LOW);
+   vTaskDelay(10/portTICK_PERIOD_MS);
+  }
+}
 
-
+void core1Task(void*parameter)
+{
+  for(;;)
+  {
+   /* your code hear  */
+   //for example: digitalWrite(pin4 , HIGH);
+   vTaskDelay(10/portTICK_PERIOD_MS);
+  }
+}
 ```
 
 ## FreeRTOS Library Test and Result
