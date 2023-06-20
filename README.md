@@ -25,7 +25,7 @@
 
 ## Explanation and distribution of projects
 
- * [Arduino](https://github.com/BasilAvad).
+ * [Arduino](https://github.com/BasilAvad/FreeRTOS/tree/main/Examples/Arduino/ArduinoFreeRTOS).
 
  ```bash
 
