@@ -68,11 +68,11 @@ git clone https://github.com/BasilAvad/FreeRTOS/tree/main
 #include <freertos/task.h>
 ```
 
-* Create an object of .
+* Task function declarations.
 
 ```cpp
-
-
+void core0Task(void* parameter);
+void core1Task(void* parameter);
 ```
 
 *  Call a member function of the object in .
