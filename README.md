@@ -48,6 +48,7 @@
 ESP32 function block diagram.
 
 
+![ESP32-Block-Diagram](https://github.com/BasilAvad/FreeRTOS/assets/69681817/dc83c3b1-b488-4d12-b306-ee6c3d44a592)
 
 
 ## Installation
