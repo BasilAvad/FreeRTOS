@@ -1,13 +1,14 @@
 #include <Arduino.h>
 #include <Arduino_FreeRTOS.h>
+#define StackSize 64 
 
 void analogReadTask(void *pvParameter);
 void analogWriteTask(void *pvParameter);
 void setup()
 {
   Serial.begin(9600);
-  xTaskCreate(analogReadTask, "analogReadTask", 64, NULL, 1, NULL);
-  xTaskCreate(analogWriteTask, "analogWriteTask", 64, NULL, 2, NULL);
+  xTaskCreate(analogReadTask, "analogReadTask", StackSize, NULL, 1, NULL);
+  xTaskCreate(analogWriteTask, "analogWriteTask", StackSize, NULL, 2, NULL);
 }
 void loop()
 {
