@@ -46,8 +46,7 @@ void digitalWriteTask(void *pvParameter)
   {
     Serial.println("Task digitalWriteTask is running");
     digitalWrite(digitalPin, HIGH);
-    vTaskDelay(30 / portTICK_PERIOD_MS);
+    vTaskDelay(100 / portTICK_PERIOD_MS);
     digitalWrite(digitalPin, LOW);
-    vTaskDelay(30 / portTICK_PERIOD_MS);
   }
 }
