@@ -14,9 +14,9 @@ void setup()
   pinMode(adcChannel_1, INPUT);
   pinMode(pwmPin, OUTPUT);
   pinMode(digitalPin, OUTPUT);
-  xTaskCreate(analogReadTask, "analogReadTask", StackSize, NULL, 1, NULL);
-  xTaskCreate(analogWriteTask, "analogWriteTask", StackSize, NULL, 2, NULL);
-  xTaskCreate(digitalWriteTask, "digitalWriteTask", StackSize, NULL, 1, NULL);
+  xTaskCreate(analogReadTask, "analogReadTask", StackSize, NULL, configMAX_PRIORITIES - 1, NULL);
+  xTaskCreate(analogWriteTask, "analogWriteTask", StackSize, NULL, configMAX_PRIORITIES - 2, NULL);
+  xTaskCreate(digitalWriteTask, "digitalWriteTask", StackSize, NULL, configMAX_PRIORITIES - 3, NULL);
 }
 void loop()
 {
