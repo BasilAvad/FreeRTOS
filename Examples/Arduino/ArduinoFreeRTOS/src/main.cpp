@@ -10,7 +10,7 @@ void setup()
 {
   Serial.begin(9600);
   pinMode(adcChannel_1, INPUT);
-  pinMode(5,OUTPUT);
+  pinMode(5, OUTPUT);
   xTaskCreate(analogReadTask, "analogReadTask", StackSize, NULL, 1, NULL);
   xTaskCreate(analogWriteTask, "analogWriteTask", StackSize, NULL, 2, NULL);
 }
@@ -32,6 +32,7 @@ void analogWriteTask(void *pvParameter)
   for (;;)
   {
     Serial.println("Task analogWriteTask is running");
+    analogWrite(pwmPin, 200);
     vTaskDelay(25 / portTICK_PERIOD_MS);
   }
 }
