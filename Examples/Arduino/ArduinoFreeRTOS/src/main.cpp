@@ -6,6 +6,7 @@
 float adc = 0.0f;
 void analogReadTask(void *pvParameter);
 void analogWriteTask(void *pvParameter);
+void digitalWriteTask(void *pvParameter);
 void setup()
 {
   Serial.begin(9600);
@@ -13,6 +14,7 @@ void setup()
   pinMode(5, OUTPUT);
   xTaskCreate(analogReadTask, "analogReadTask", StackSize, NULL, 1, NULL);
   xTaskCreate(analogWriteTask, "analogWriteTask", StackSize, NULL, 2, NULL);
+  xTaskCreate(digitalWriteTask, "digitalWriteTask", StackSize, NULL, 1, NULL);
 }
 void loop()
 {
@@ -34,5 +36,13 @@ void analogWriteTask(void *pvParameter)
     Serial.println("Task analogWriteTask is running");
     analogWrite(pwmPin, 200);
     vTaskDelay(25 / portTICK_PERIOD_MS);
+  }
+}
+void digitalWriteTask(void *pvParameter)
+{
+  while (1)
+  {
+    Serial.println("Task digitalWriteTask is running");
+    vTaskDelay(30 / portTICK_PERIOD_MS);
   }
 }
