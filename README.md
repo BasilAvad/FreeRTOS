@@ -125,8 +125,11 @@ Period to  Frequency             ![DOcfewC6QbGabF7mbxCL_frequencyformula](https:
 
  * 🟥 .
    
-Simple test on [Arduino](https://github.com/BasilAvad/FreeRTOS/tree/main/Examples/Arduino/ArduinoFreeRTOS) project in the image below you can see the pin outs signal in the seam time.
-
+Conducting a straightforward evaluation on the [Arduino freeRTOS](https://github.com/BasilAvad/FreeRTOS/tree/main/Examples/Arduino/ArduinoFreeRTOS) Referencing the image below, 
+* channel_0 -> PWM Signal
+* channel_1 -> pin digital output
+* channel_3 -> noise
+  
 ![Logic 2  Logic - Connected   Session 9  1_30_2024 12_11_16 AM](https://github.com/BasilAvad/FreeRTOS/assets/69681817/a328ba22-5423-4b05-bcf0-fd172b7ae8bb)
 
 ## Contributing
