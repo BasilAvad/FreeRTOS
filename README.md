@@ -125,6 +125,7 @@ Period to  Frequency             ![DOcfewC6QbGabF7mbxCL_frequencyformula](https:
 
  * 🟥 .
 
+![Logic 2  Logic - Connected   Session 9  1_30_2024 12_11_16 AM](https://github.com/BasilAvad/FreeRTOS/assets/69681817/a328ba22-5423-4b05-bcf0-fd172b7ae8bb)
 
 ## Contributing
 
