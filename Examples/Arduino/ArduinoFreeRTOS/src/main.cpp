@@ -3,6 +3,7 @@
 #define StackSize 64
 #define adcChannel_1 A0
 #define pwmPin 5
+#define digitalPin 13
 float adc = 0.0f;
 void analogReadTask(void *pvParameter);
 void analogWriteTask(void *pvParameter);
@@ -43,6 +44,9 @@ void digitalWriteTask(void *pvParameter)
   while (1)
   {
     Serial.println("Task digitalWriteTask is running");
+    digitalWrite(digitalPin, HIGH);
+    vTaskDelay(30 / portTICK_PERIOD_MS);
+    digitalWrite(digitalPin, HIGH);
     vTaskDelay(30 / portTICK_PERIOD_MS);
   }
 }
