@@ -1,13 +1,14 @@
 #include <Arduino.h>
 #include <Arduino_FreeRTOS.h>
 #define StackSize 64
+#define adcChannel_1 A0
 float adc = 0.0f;
 void analogReadTask(void *pvParameter);
 void analogWriteTask(void *pvParameter);
 void setup()
 {
   Serial.begin(9600);
-  pinMode(A0, INPUT);
+  pinMode(adcChannel_1, INPUT);
   xTaskCreate(analogReadTask, "analogReadTask", StackSize, NULL, 1, NULL);
   xTaskCreate(analogWriteTask, "analogWriteTask", StackSize, NULL, 2, NULL);
 }
