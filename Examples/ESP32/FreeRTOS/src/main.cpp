@@ -1,4 +1,6 @@
 #include <Arduino.h>
+#include <adc.h>
+#include<driver/adc.h>
 #include <freertos/FreeRTOS.h>
 #include <freertos/task.h>
 #define StackSize 256
