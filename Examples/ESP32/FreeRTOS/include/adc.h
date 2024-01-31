@@ -1,6 +1,10 @@
 #ifndef H_ADC_L
 #define H_ADC_L
-
+// User Includes
+#include <driver/adc.h>
+#include <driver/gpio.h>
+#include <driver/dac.h>
+//
 class adc
 {
 private:
