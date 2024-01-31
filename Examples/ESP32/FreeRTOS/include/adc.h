@@ -14,11 +14,10 @@ extern "C"
 class adc
 {
 private:
-    // Private data members can be added here if needed
 
 public:
-    adc();          // Constructor
-    ~adc();         // Destructor
+    adc();          
+    ~adc();         
     void adc_dma_Init();
     float adc_read(int channel);
 };
