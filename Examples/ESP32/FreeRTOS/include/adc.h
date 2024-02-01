@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 /* Author : Basil AVAD
  *
  * This ESP32 code is released in the public ate domain
  * Dont forget to change the direction librarys when you use the project in another PC.
  */
+=======
+>>>>>>> parent of 6c7183d (Including an open source license into project)
 #ifndef H_ADC_L
 #define H_ADC_L
 // User Includes
