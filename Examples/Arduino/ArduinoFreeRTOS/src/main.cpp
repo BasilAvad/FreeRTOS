@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <Arduino_FreeRTOS.h>
-#define StackSize 64
+#define StackSize ((unsigned short)256)
 #define adcChannel_1 A0
 #define pwmPin 5
 #define digitalPin 13
