@@ -1,3 +1,9 @@
+/* Author : Basil AVAD
+ * This ESP32 code is created by https://www.biuniq.tech/
+ *
+ * This ESP32 code is released in the public ate domain
+ * Dont forget to change the direction librarys when you use the project in another PC.
+ */
 #ifndef H_ADC_L
 #define H_ADC_L
 // User Includes
