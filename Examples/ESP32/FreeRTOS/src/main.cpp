@@ -1,7 +1,5 @@
 #include <Arduino.h>
-#include <driver/adc.h>
-#include <freertos/FreeRTOS.h>
-#include <freertos/task.h>
+#include<adc.h>
 #define StackSize 256
 
 void adcReadTask(void *pvParameter);
@@ -11,6 +9,7 @@ void wiFiTask(void *pvParameter);
 void setup()
 {
   Serial.begin(115200);
+  adc::adc1_Init();
   xTaskCreatePinnedToCore(adcReadTask, "adcReadTask", StackSize, NULL, configMAX_PRIORITIES - 1, NULL, 0);     // Task run on core 0
   xTaskCreatePinnedToCore(pwmOutputTask, "pwmOutputTask", StackSize, NULL, configMAX_PRIORITIES - 2, NULL, 1); // Task run on core 1
   xTaskCreatePinnedToCore(i2cTask, "i2cTask", StackSize, NULL, configMAX_PRIORITIES - 3, NULL, 0);
