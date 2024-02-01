@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include<adc.h>
-#define StackSize 256
+#define StackSize ((unsigned short)256)
 
 void adcReadTask(void *pvParameter);
 void pwmOutputTask(void *pvParameter);
