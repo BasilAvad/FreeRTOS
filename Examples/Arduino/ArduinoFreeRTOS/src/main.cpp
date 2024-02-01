@@ -28,6 +28,8 @@ void analogReadTask(void *pvParameter)
   {
     Serial.println("Task analogReadTask is running");
     adc = analogRead(A0);
+    Serial.print("ADC raw data is : ");
+    Serial.println(adc);
     vTaskDelay(20 / portTICK_PERIOD_MS);
   }
 }
