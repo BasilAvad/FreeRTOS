@@ -42,7 +42,7 @@ void analogWriteTask(void *pvParameter)
     vTaskDelay(25 / portTICK_PERIOD_MS);
   }
 }
-void digitalWriteTask(void *pvParameter)
+void digitalWriteTask(void *pvParameter) // Task 3
 {
   while (1)
   {
