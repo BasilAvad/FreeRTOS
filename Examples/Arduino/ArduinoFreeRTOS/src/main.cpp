@@ -22,7 +22,7 @@ void loop()
 {
 }
 
-void analogReadTask(void *pvParameter)
+void analogReadTask(void *pvParameter) // Task 1
 {
   for (;;)
   {
@@ -33,7 +33,7 @@ void analogReadTask(void *pvParameter)
     vTaskDelay(20 / portTICK_PERIOD_MS);
   }
 }
-void analogWriteTask(void *pvParameter)
+void analogWriteTask(void *pvParameter) // Task 2
 {
   for (;;)
   {
