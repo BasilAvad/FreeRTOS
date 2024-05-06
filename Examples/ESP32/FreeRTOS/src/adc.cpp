@@ -5,7 +5,7 @@
 
 void adc::adc1_Init()
 {
-    adc1_config_width(ADC_RESOLUTION);
+    adc1_config_width(ADC_RESOLUTION);  // ADC width 12 bit
     adc1_config_channel_atten(ADC1_CHANNEL_1, ADC_ATTEN_11db);
 }
 
