@@ -16,8 +16,8 @@ void setup()
   adc::adc1_Init();
   xTaskCreatePinnedToCore(adcReadTask, "adcReadTask", StackSize, NULL, configMAX_PRIORITIES - 1, NULL, 0);     // Task run on core 0
   xTaskCreatePinnedToCore(pwmOutputTask, "pwmOutputTask", StackSize, NULL, configMAX_PRIORITIES - 2, NULL, 1); // Task run on core 1
-  xTaskCreatePinnedToCore(i2cTask, "i2cTask", StackSize, NULL, configMAX_PRIORITIES - 3, NULL, 0);
-  xTaskCreatePinnedToCore(wiFiTask, "wiFiTask", StackSize, NULL, configMAX_PRIORITIES - 4, NULL, 1);
+  xTaskCreatePinnedToCore(i2cTask, "i2cTask", StackSize, NULL, configMAX_PRIORITIES - 3, NULL, 0);             // Task run on core 0
+  xTaskCreatePinnedToCore(wiFiTask, "wiFiTask", StackSize, NULL, configMAX_PRIORITIES - 4, NULL, 1);           // Task run on core 1
 }
 
 void loop()
